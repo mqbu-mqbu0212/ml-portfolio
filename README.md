@@ -20,8 +20,10 @@ The following three classes were intentionally selected.
   Regular building patterns → expected to be distinguishable using texture features such as GLCM.
 
 * **airplane**
-  Airport concrete surfaces resemble **beach** in color and **denseresidential** in structural patterns.
-  This class was selected as a difficult case that could potentially be confused with both other classes.
+  Airport scenes contain large concrete areas and structural patterns,
+  which may resemble both beach and residential textures.
+  This class was selected as a challenging category that may require
+  both color and texture features for accurate classification.
 
 By combining these classes, the experiment was designed to evaluate how color features (RGB) and texture features (GLCM) influence classification performance.
 
@@ -90,15 +92,15 @@ For SVM, the difference between RGB and GLCM was relatively small.
 
 ### Confusion Matrices
 
-| RF-rgb                                  | RF-rgb_glcm                                  |
+| RF-RGB                                  | RF-RGB_GLCM                                  |
 | --------------------------------------- | -------------------------------------------- |
 | ![](results/ConfusionMatrix_RF_rgb.png) | ![](results/ConfusionMatrix_RF_rgb_glcm.png) |
 
-| RF-glcm                                  | SVM-rgb                                  |
+| RF-GLCM                                  | SVM-RGB                                  |
 | ---------------------------------------- | ---------------------------------------- |
 | ![](results/ConfusionMatrix_RF_glcm.png) | ![](results/ConfusionMatrix_SVM_rgb.png) |
 
-| SVM-glcm                                  | SVM-rgb_glcm                                  |
+| SVM-GLCM                                  | SVM-RGB_GLCM                                  |
 | ----------------------------------------- | --------------------------------------------- |
 | ![](results/ConfusionMatrix_SVM_glcm.png) | ![](results/ConfusionMatrix_SVM_rgb_glcm.png) |
 
@@ -106,7 +108,7 @@ For SVM, the difference between RGB and GLCM was relatively small.
 
 ### Feature Importance (Random Forest)
 
-| rgb                                | glcm                                | rgb_glcm                                |
+| RGB                                | GLCM                                | RGB_GLCM                                |
 | ---------------------------------- | ----------------------------------- | --------------------------------------- |
 | ![](results/RF_importance_rgb.png) | ![](results/RF_importance_glcm.png) | ![](results/RF_importance_rgb_glcm.png) |
 
