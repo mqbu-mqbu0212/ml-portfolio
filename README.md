@@ -149,7 +149,7 @@ pip install -r requirements.txt
 
 Experimental report (PDF):
 
-* 馬淵健_Pythonを用いた画像処理・機械学習経験.pdf
+* MachineLearning_Experience_JP.pdf
 
 Source code:
 
