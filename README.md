@@ -148,9 +148,7 @@ pip install -r requirements.txt
 ## Additional Materials
 
 Experimental report (PDF):
-
-* MachineLearning_Experience_JP.pdf
+* [MachineLearning_Experience_JP.pdf](MachineLearning_Experience_JP.pdf)
 
 Source code:
-
-* MachineLearning_multiple5K.py
+* [MachineLearning_multiple5K.py](MachineLearning_multiple5K.py)
